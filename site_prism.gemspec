@@ -17,9 +17,9 @@ SitePrism implements the Page Object Model pattern on top of Capybara.'
   s.files        = Dir.glob('lib/**/*') + %w[LICENSE.md README.md]
   s.require_path = 'lib'
   s.add_dependency 'addressable', ['~> 2.4']
-  s.add_dependency 'capybara', ['~> 2.12']
+  s.add_dependency 'capybara', ['~> 3.1.0']
 
-  s.add_development_dependency 'cucumber', ['3.0.1']
+  s.add_development_dependency 'cucumber', ['3.1.0']
   s.add_development_dependency 'rake', ['~> 12.0']
   s.add_development_dependency 'rspec', ['~> 3.5']
   s.add_development_dependency 'rubocop', ['0.50.0']
